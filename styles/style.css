@@ -1,12 +1,28 @@
-
-nav{
+    
+nav {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    padding: 5px;
     display: flex;
     justify-content: space-between;
 }
 main {
-    flex-direction: column;
+    background-color: transparent;
+    font-family: Arial, sans-serif;
     display: flex;
     align-items: center;
-    justify-content: center;
+    flex-direction: column;
 }
-    
+footer {
+    font-family: Arial, sans-serif;
+    display: flex;    
+    justify-content: space-between;
+    flex-direction: row;
+}
+body {
+    height: 98vh;
+    display: flex;    
+    justify-content: space-between;
+    flex-direction: column;
+    font-family: Arial, sans-serif; 
+}
